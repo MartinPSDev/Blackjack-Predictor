@@ -3,7 +3,8 @@
    
 # Cartas de los jugadores
 cartas_jugadores = {}
-
+global primera_carta_jugador 
+global segunda_carta_jugador
 
 def input_data(jugadores):
  global carta_descubierta_crupier
@@ -12,7 +13,8 @@ def input_data(jugadores):
     primera_carta_jugador = tuple(input(f"Ingrese la primera carta del jugador {i} en el siguiente formato [numero/letra, Palo]: ").split(', '))
     segunda_carta_jugador = tuple(input(f"Ingrese la segunda carta del jugador {i} en el siguiente formato [numero/letra, Palo]: ").split(', '))
     cartas_jugadores[f"jugador_{i}"] = (primera_carta_jugador, segunda_carta_jugador)
-
+ return cartas_jugadores
+ 
 
 def crear_barajas(cantidad):
     palos = ['Corazones', 'Diamantes', 'Treboles', 'Picas']
