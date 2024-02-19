@@ -10,8 +10,9 @@ def sumar_valores_cartas(primera_carta_jugador,segunda_carta_jugador):
     return suma
 
 def estrategia_basica():
-    if (cm.carta_descubierta_crupier[0] == ('2', 'Corazones')) or (cm.carta_descubierta_crupier[0] == ('2', 'Diamantes')) or \
-          (cm.carta_descubierta_crupier[0] == '2', 'Treboles')or (cm.carta_descubierta_crupier[0] == '2', 'Picas') and \
+    if (cm.carta_descubierta_crupier == ('2', 'Corazones')) or (cm.carta_descubierta_crupier == ('2', 'Diamantes')) or \
+          (cm.carta_descubierta_crupier  == ('2', 'Treboles'))or (cm.carta_descubierta_crupier == ('2', 'Picas') )and \
           (sumar_valores_cartas() > 4 and sumar_valores_cartas< 9 ):
         print ("\n\nPedir Carta")
+
     

@@ -9,6 +9,7 @@ global segunda_carta_jugador
 def input_data(jugadores):
  global carta_descubierta_crupier
  carta_descubierta_crupier = tuple(input("Ingrese la primera carta del crupier en el siguiente formato [numero/letra, Palo]: ").split(', '))
+
  for i in range(1, jugadores + 1):
     primera_carta_jugador = tuple(input(f"Ingrese la primera carta del jugador {i} en el siguiente formato [numero/letra, Palo]: ").split(', '))
     segunda_carta_jugador = tuple(input(f"Ingrese la segunda carta del jugador {i} en el siguiente formato [numero/letra, Palo]: ").split(', '))
