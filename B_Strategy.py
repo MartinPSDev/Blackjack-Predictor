@@ -26,6 +26,8 @@ def estrategia_basica():
        (cm.carta_descubierta_crupier == ('8', 'Treboles'))  or (cm.carta_descubierta_crupier == ('8', 'Picas') )or \
        (cm.carta_descubierta_crupier == ('9', 'Corazones')) or (cm.carta_descubierta_crupier == ('9', 'Diamantes'))or \
        (cm.carta_descubierta_crupier == ('9', 'Treboles'))  or (cm.carta_descubierta_crupier == ('9', 'Picas') )or \
+       (cm.carta_descubierta_crupier == ('10', 'Corazones'))or (cm.carta_descubierta_crupier == ('8', 'Diamantes'))or \
+       (cm.carta_descubierta_crupier == ('10', 'Treboles')) or (cm.carta_descubierta_crupier == ('8', 'Picas') )or \
        (cm.carta_descubierta_crupier == ('A', 'Corazones')) or (cm.carta_descubierta_crupier == ('A', 'Diamantes'))or \
        (cm.carta_descubierta_crupier == ('A', 'Treboles'))  or (cm.carta_descubierta_crupier == ('A', 'Picas') )or \
        (cm.carta_descubierta_crupier == ('K', 'Corazones')) or (cm.carta_descubierta_crupier == ('K', 'Diamantes'))or \
@@ -47,6 +49,8 @@ def estrategia_basica():
        (cm.carta_descubierta_crupier == ('8', 'Treboles'))  or (cm.carta_descubierta_crupier == ('8', 'Picas') )or \
        (cm.carta_descubierta_crupier == ('9', 'Corazones')) or (cm.carta_descubierta_crupier == ('9', 'Diamantes'))or \
        (cm.carta_descubierta_crupier == ('9', 'Treboles'))  or (cm.carta_descubierta_crupier == ('9', 'Picas') )or \
+       (cm.carta_descubierta_crupier == ('10', 'Corazones'))or (cm.carta_descubierta_crupier == ('8', 'Diamantes'))or \
+       (cm.carta_descubierta_crupier == ('10', 'Treboles')) or (cm.carta_descubierta_crupier == ('8', 'Picas') )or \
        (cm.carta_descubierta_crupier == ('A', 'Corazones')) or (cm.carta_descubierta_crupier == ('A', 'Diamantes'))or \
        (cm.carta_descubierta_crupier == ('A', 'Treboles'))  or (cm.carta_descubierta_crupier == ('A', 'Picas') )or \
        (cm.carta_descubierta_crupier == ('K', 'Corazones')) or (cm.carta_descubierta_crupier == ('K', 'Diamantes'))or \
