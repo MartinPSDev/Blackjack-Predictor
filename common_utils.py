@@ -1,5 +1,3 @@
-
-
    
 # Cartas de los jugadores
 cartas_jugadores = {}
@@ -47,6 +45,8 @@ def buscar_cartas(cantidad):
                 cartas_encontradas.append(carta_baraja)
                 nueva_baraja.remove(carta_baraja)
 
+    # Mostrar cartas encontradas
+    print(f'Cartas encontradas: {cartas_encontradas}')
     return cartas_encontradas
 
 

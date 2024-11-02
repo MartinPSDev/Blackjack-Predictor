@@ -17,11 +17,19 @@ cm.output_cartas()
 sumar_valores_cartas(cartas_jugadores["jugador_1"][0], cartas_jugadores["jugador_1"][1])
 
 
-def main ():
- what_to_do = estrategia_basica()
- print(f'Cartas encontradas: {cm.buscar_cartas(cantidad)}\n\n')
- print(f'Baraja Actual: {cm.nueva_baraja} \n\n')
- print(what_to_do)
+def main():
+    cm.input_data(jugadores)
+    cm.crear_barajas(cantidad)
+    cm.output_cartas()
+
+    # Lógica del juego
+    while True:
+        estrategia_basica()
+        continuar = input("¿Desea continuar jugando? (s/n): ")
+        if continuar.lower() != 's':
+            break
+
+    print(f'Baraja Actual: {cm.nueva_baraja} \n\n')
 
 if __name__ == "__main__":
     main()
